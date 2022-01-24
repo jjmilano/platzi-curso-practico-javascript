@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de porcentajes!</title>
 </head>
 <body>
     <section>
         <main>
-            <h1>Calculadora de Porcentajes</h1>
+            <header>
+                <h1>Calculadora de Porcentajes</h1>
+                <p> Este es el segundo taller de JavaScript Platzi.</p>
+            </header>
             <form action="">
-                <label for="InputPorcentaje">Escribe cual es el valor</label>
-                <input id ="InputPorcentaje" type="number">
-                <label for="inputPorcentaje">Escribe tú porcentaje</label>
-                <input id="InputPorcentaje" type="number">
-                <button type="button" onclick="descuentos()">Calcular el porcentaje!</button>
+                <label for="InputPrice">Escribe cual es el valor</label>
+                <input id ="InputPrice" type="number">
+
+                <label for="InputCoupon">Escribe tú cupon</label>
+                <input id="InputCoupon" type="text">
+                <button type="button" onclick="descuentoMagico()">Calcular el precio con descuento!!</button>
+                <p id="resultP"></p>
             </form>
         </main>
     </section>
