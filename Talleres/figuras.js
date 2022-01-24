@@ -32,6 +32,22 @@ return (radio * radio) * PI;
 }
 
 
+//Funcion Triangulo Isoceles.
+function perimetroIsoceles(lado1,lado2,base){
+    if (lado1===lado2 && lado1 != base){
+        return "YES this is a Isoceles!";
+    }
+    else {
+        return("Nope is not");
+    } 
+}
+
+function areaIsoceles(base,altura){
+    const H = Math.sqrt(lado1**2 - base**2/ 4);
+    return (base*altura)/2
+}
+
+
 /// conecting with HTML
 ///Funciones de calculo cuadrado
 function calcularPerimetroCuadrado(){
@@ -85,3 +101,5 @@ function calcularDiametroCirculo(){
 
     alert("el perimetro del circulo es " +perimetroCi+ "cm " + "y el área es :" + areaCi +"cm^2")
 }
+
+//Funciones de calculo de Triangulo Isoceles.
